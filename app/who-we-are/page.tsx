@@ -18,19 +18,21 @@ const paragraphs = [
 
 export default function WhoWeArePage() {
   return (
-    <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6">
-      <h1 className="font-display text-3xl tracking-wide text-ink sm:text-4xl">
-        Who we are
-      </h1>
-      <div className="mt-8 space-y-5">
-        {paragraphs.map((paragraph) => (
-          <p
-            key={paragraph}
-            className="font-sans text-base leading-relaxed text-ink/75"
-          >
-            {paragraph}
-          </p>
-        ))}
+    <div className="marble-canvas">
+      <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6">
+        <h1 className="font-display text-3xl tracking-wide text-ink sm:text-4xl">
+          Who we are
+        </h1>
+        <div className="mt-8 space-y-5">
+          {paragraphs.map((paragraph) => (
+            <p
+              key={paragraph}
+              className="font-sans text-base leading-relaxed text-ink/75"
+            >
+              {paragraph}
+            </p>
+          ))}
+        </div>
       </div>
     </div>
   );

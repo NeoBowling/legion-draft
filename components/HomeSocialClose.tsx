@@ -6,8 +6,8 @@ export function HomeSocialClose() {
 
   return (
     <section
-      className="bg-cover bg-center"
-      style={{ backgroundImage: "url(/marble-gold.png)" }}
+      className="mx-auto w-[1186px] max-w-full bg-cover bg-center"
+      style={{ backgroundImage: "url(/marble-discord.png)" }}
     >
       <div className="mx-auto max-w-6xl px-4 py-16 sm:px-6 sm:py-20">
         <h2 className="font-poster text-4xl font-bold tracking-wide text-gold uppercase sm:text-6xl">

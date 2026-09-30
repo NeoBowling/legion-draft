@@ -45,3 +45,16 @@ body {
 .font-display {
   font-family: var(--font-display), ui-serif, Georgia, serif;
 }
+
+.marble-canvas {
+  background-color: #f7f3ec;
+  background-image:
+    radial-gradient(ellipse at 18% 0%, rgba(255, 255, 255, 0.55), transparent 42%),
+    radial-gradient(ellipse at 82% 0%, rgba(198, 161, 91, 0.12), transparent 36%),
+    repeating-linear-gradient(
+      125deg,
+      rgba(138, 106, 47, 0.025) 0 1px,
+      transparent 1px 7px
+    ),
+    linear-gradient(180deg, #f7f3ec 0%, #efe7da 48%, #e9e0d2 100%);
+}

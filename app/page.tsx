@@ -24,7 +24,7 @@ export default function HomePage() {
   const partners = getPartners().slice(0, 4);
 
   return (
-    <div>
+    <div className="bg-[#f7f3ec]">
       <HomeHero />
       {latestPost ? <HomeLatestStory post={latestPost} /> : null}
       <HomeUpcomingEvents />

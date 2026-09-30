@@ -3,7 +3,7 @@ import type { Player } from "@/content/players";
 
 export function HomePlayerStrip({ players }: { players: Player[] }) {
   return (
-    <section className="border-b border-gold/25 bg-marble-deep/25">
+    <section className="border-b border-gold/25 bg-[#f7f3ec]">
       <div className="mx-auto max-w-6xl px-4 py-16 sm:px-6 sm:py-20">
         <div className="flex flex-wrap items-end justify-between gap-4">
           <h2 className="font-poster text-4xl font-bold tracking-wide text-gold uppercase sm:text-6xl">
